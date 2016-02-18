@@ -9,19 +9,19 @@ markdown: kramdown
 
 # The title and tagline is showed on homepage
 #
-title :  Pigbrain
+title :  Jooooo's Blog
 tagline: Blog
 
 # Information about author
 #
 author :
-  name : HyunDong Lee
+  name : JinJu Choi
   
 # Information for contacts showed at on the footer
 #
 contact :
-  e-mail : mailto:hyundong.lee@nhnent.com
-  Github : https://github.com/pigbrain
+  e-mail : mailto:jinju3596@naver.com
+  Github : https://github.com/tinybread
   
 # Links showed on the footer
 #
