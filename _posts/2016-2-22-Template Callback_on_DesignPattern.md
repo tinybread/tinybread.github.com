@@ -18,7 +18,7 @@ File, DB를 활용하여 IO작업을 하다보면 (mybatis와 같은 sql 맵퍼 
 이러한 방식을 스프링에서는 템플릿/콜백 패턴이라고 부른다.
 
 <br>
-### Template Callback pattern? 
+### Template Callback pattern?    
 <br>
 먼저, 전략패턴이란 OCP관점에서 보면 확장에 해당하는 변하는 부분을 별도의 클래스로 만들어 추상화된 인터페이스를 통해 위임하는 방식이다. 
 아래의 이미지를 보면 클라이언트에서 전략을 제공하고 
@@ -27,7 +27,7 @@ File, DB를 활용하여 IO작업을 하다보면 (mybatis와 같은 sql 맵퍼 
 <img src="/assets/themes/Snail/img/DesignPattern/TemplateCallback/strategyUML.jpg" alt="">
 출처 : 토비의 스프링 3.1 (그림 3-3 전략 패턴에서 client의 역할)
 
-<br>
+<br><br>
 이와 같은 전략패턴의 컨텍스트를 템플릿이라 부르고, 익명 내부클래스로 만들어지는 오브젝트(변하는부분)를 콜백이라 부른다.<br>
 
 *  콜백 : 실행되는 것을 목적으로 다른 오브젝트의 메소드에 전달되는 오브젝트, 파라메터로 전달되지만 값 참조가 아닌, 로직을 전달하기 위해 사용(자바에선 메소드 자체를 파라미터로 전달할 방법이 없기 때문)
