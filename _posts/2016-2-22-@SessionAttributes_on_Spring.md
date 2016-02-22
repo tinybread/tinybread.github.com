@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Spring
-title: @SessionAttributes
+title: SessionAttributes
 tagline: by TinyBread
 tags: [Spring]
 ---
