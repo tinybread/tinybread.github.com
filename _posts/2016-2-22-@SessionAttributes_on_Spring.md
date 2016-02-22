@@ -54,7 +54,7 @@ tags: [Spring]
 @ModelAttribute를 이용하여 session에 저장된 값을 파라미터값으로 가져온다. (session에 저장된 값을 꺼내옴)
 
 
-<br>  
+
 ### SessionStatus  
 
 더이상 필요없는 세션을 제거해 주기 위한 작업 (SessionStatus스프링 내장 타입)
