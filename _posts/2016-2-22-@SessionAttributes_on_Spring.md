@@ -34,7 +34,7 @@ tags: [Spring]
 <br><br>
 **@SessionAttributes, @ModelAttribute** 사용하게되면 위와 같이 직접 세션에 저장을 해주는 작업을 하지않아도 된다.
 <img src="/assets/themes/Snail/img/Spring/SessionAttributes/sampleNoticeLogin.PNG" alt="">
-
+<br>  
 
 		@SessionAttributes("user")  
 		...
@@ -42,7 +42,7 @@ tags: [Spring]
 		model.addAttribute("user", user);
 		...
 
-위와 같은 작업을 통해 "user"라는 이름으로 Model객체에 attribute를 지정하는 것이 있다면 이를 Session에 저장한다.
+위와 같은 작업을 통해 "user"라는 이름으로 Model객체에 attribute를 지정하는 것이 있다면 이를 Session에 저장한다.<br>  
 
 			@RequestMapping(value = "/sessionCheck", method = RequestMethod.POST)
 			public String submit(@ModelAttribute("user") User user) {
@@ -54,7 +54,7 @@ tags: [Spring]
 @ModelAttribute를 이용하여 session에 저장된 값을 파라미터값으로 가져온다. (session에 저장된 값을 꺼내옴)
 
 
-
+<br>  
 ### SessionStatus
 더이상 필요없는 세션을 제거해 주기 위한 작업 (SessionStatus스프링 내장 타입)
 
