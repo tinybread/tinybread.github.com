@@ -55,7 +55,7 @@ tags: [Spring]
 
 
 <br>  
-### SessionStatus
+### SessionStatus  
 더이상 필요없는 세션을 제거해 주기 위한 작업 (SessionStatus스프링 내장 타입)
 
 			@RequestMapping(value = "/logout", method = RequestMethod.POST)
