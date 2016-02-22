@@ -27,7 +27,7 @@ tags: [Spring]
 
 
 		// set session attribute
-		HttpSession session = req.getSession();
+		HttpSession session = request.getSession();
 		session.setAttribute("sessionTest", "session Test!!");
 
 
