@@ -1,7 +1,7 @@
 ---
 layout: post
 category: DesignPattern
-title: Template Callback와 DAO
+title: Template Callback
 tagline: by TinyBread
 tags: [DesignPattern]
 ---
@@ -18,8 +18,8 @@ File, DB를 활용하여 IO작업을 하다보면 (mybatis와 같은 sql 맵퍼 
 이러한 방식을 스프링에서는 템플릿/콜백 패턴이라고 부른다.
 
 <br>
-### Template Callback pattern?    
-<br>
+### Template Callback pattern?     
+
 먼저, 전략패턴이란 OCP관점에서 보면 확장에 해당하는 변하는 부분을 별도의 클래스로 만들어 추상화된 인터페이스를 통해 위임하는 방식이다. 
 아래의 이미지를 보면 클라이언트에서 전략을 제공하고 
 컨텍스트라는 클래스를 통해서 변하지 않는 부분을 추출 후  동적으로 변하는 부분에 대해 각각의 알고리즘을 교체하여 사용하는 방식이다. 
