@@ -24,8 +24,8 @@ Collection을 사용할 때는 목적과 용도에 맞게 선택하여 사용해
 <img src="/assets/themes/Snail/img/Java/JavaCollection/hierarchy.png" alt="">
 <br> 
 
-### Blockingg Queue
-아래의 참고링크를 보다 blocking collctions이라는 것이 있어 찾아보게 되었다.
+### Blocking Queue
+아래의 참고링크를 보다 Blocking collctions이라는 것이 있어 찾아보게 되었다.
 
 <img src="/assets/themes/Snail/img/Java/JavaCollection/blockingQueueAPI.PNG" alt="">
   
