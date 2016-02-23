@@ -27,7 +27,7 @@ Collection을 사용할 때는 목적과 용도에 맞게 선택하여 사용해
 ### Blockingg Queue
 아래의 참고링크를 보다 blocking collctions이라는 것이 있어 찾아보게 되었다.
 
-<img src="/assets/themes/Snail/img/Java/JavaCollection/blockingQueueAPI.png" alt="">
+<img src="/assets/themes/Snail/img/Java/JavaCollection/blockingQueueAPI.PNG" alt="">
   
 <br>
 <br>
@@ -42,7 +42,7 @@ Collection을 사용할 때는 목적과 용도에 맞게 선택하여 사용해
 * 가득찬 queue에 항목을 삽입시도시 queue에 공간이 확보될때까지 wait
 <br><br>
 
-<img src="/assets/themes/Snail/img/Java/JavaCollection/blockingQueue.png" alt="">
+<img src="/assets/themes/Snail/img/Java/JavaCollection/blockingQueue.PNG" alt="">
   
 
 ### Example BlockingQueue
