@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Java
-title: java Collections
+title: Java Collections
 tagline: by TinyBread
 tags: [Java]
 ---
