@@ -31,11 +31,16 @@ Generic을 도입하기 이전까진 컨테이너에서 Object 타입으로 객�
 그러나 Generic이 도입되면서 타입 안정성을 확보할 수 있게 되었고 문제를 실행 도중이 아닌(RuntimeException) 컴파일 시 발견 할수 있게 되었다.
 
 
-### 간단한 Generic
-### Generic Interface
-### Generic method
-### 와일드 카드 문자
-### Generic의 제약
+### 간단한 Generic  
+
+### Generic Interface  
+
+### Generic method  
+
+### 와일드 카드 문자  
+
+### Generic의 제약  
+
 
 
 ### 참고
