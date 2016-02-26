@@ -19,6 +19,7 @@ tags: [Java]
 
 
 
+
 **Generic?**
 
 자바SE5 버전에서 가장 큰 특징으로 generic이다.<br>
