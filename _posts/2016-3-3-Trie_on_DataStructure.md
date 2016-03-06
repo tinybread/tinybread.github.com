@@ -46,7 +46,7 @@ tags: [DataStructure]
 
 ### 구조
 
-<img src="/assets/themes/Snail/img/DesignPattern/Trie/trie_example.jpg" alt="">
+<img src="/assets/themes/Snail/img/DataStructure/Trie/trie_example.jpg" alt="">
 
 * root 노드는 빈 노드이다.
 * 간선은 prefix가 붙는 것을 의미한다.
