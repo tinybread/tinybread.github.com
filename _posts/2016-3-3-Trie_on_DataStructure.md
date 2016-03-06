@@ -44,8 +44,9 @@ tags: [DataStructure]
 * 문자열 집합의 개수와 상관없이 찾고자 하는 문자열의 길이가 시간복잡도가 된다.
 
 
-### 구조
-\assets\themes\Snail\img\DataStructure\Trie
+### 구조  
+
+
 <img src="/assets/themes/Snail/img/DataStructure/Trie/trieExample.jpg" alt="">
 
 
