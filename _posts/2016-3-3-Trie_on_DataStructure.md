@@ -45,8 +45,7 @@ tags: [DataStructure]
 
 
 ### 구조
-
-
+\assets\themes\Snail\img\DataStructure\Trie
 <img src="/assets/themes/Snail/img/DataStructure/Trie/trieExample.jpg" alt="">
 
 
@@ -58,8 +57,6 @@ tags: [DataStructure]
 
 ### Example
 
-http://m.blog.naver.com/javaking75/140211950640
-참고해서 코드만들기.
 
 
 ### 참고
