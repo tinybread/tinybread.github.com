@@ -31,8 +31,6 @@ tags: [DataStructure]
 
 * 주로 스트링을 키로 가지는 동적집합 이나 연관 배열을 저장하는데 사용된다. 
 
-* 이진 검색 트리와는 달리, 노드는 키를 갖지 않는 대신, 그 위치가 키 역할을 한다.
-
 * 또한 root 노드는 값을 비어있는 형태이다.
 
 * 특정 노드의 모든 자식노드는 그 노드의 동일한  prefix를 갖는다. 
@@ -47,7 +45,7 @@ tags: [DataStructure]
 ### 구조  
 
 
-<img src="/assets/themes/Snail/img/DataStructure/Trie/trieExample.jpg" alt="">
+<img src="/assets/themes/Snail/img/DataStructure/Trie/trieExample.PNG" alt="">
 
 
 
