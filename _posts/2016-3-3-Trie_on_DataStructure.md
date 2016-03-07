@@ -46,15 +46,92 @@ tags: [DataStructure]
 
 
 <img src="/assets/themes/Snail/img/DataStructure/Trie/trieExample.PNG" alt="">
-
+출처 : [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
 
 
 * root 노드는 빈 노드이다.
-* 간선은 prefix가 붙는 것을 의미한다.
 * tree의 가장 마지막 노드가 의미있는 데이터가 된다.
 * 부모노드와 간선문자를 이용해 자식노드를 나타낸다.
 
+**Search in a trie**
+키의 각 문자에 해당하는 링크를 따라간다.
+Search hit : node의 끝이 null 이외의 value값을 갖고 있다.
+
+<img src="/assets/themes/Snail/img/DataStructure/Trie/searchHit.PNG" alt="">
+출처 : [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
+
+
+
+Search miss : null 링크 또는 종료 노드의 값이 null을 갖고 있다.
+
+<img src="/assets/themes/Snail/img/DataStructure/Trie/searchMiss.PNG" alt="">
+출처 : [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
+
+
+
+<img src="/assets/themes/Snail/img/DataStructure/Trie/searchMiss2.PNG" alt="">
+출처 : [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
+
 ### Example
+
+		public class Node {
+			 private Object value;
+			 private Node[] next = new Node[R];
+		}
+
+		public class TrieExample<Value> {
+			 private static final int R = 256;
+			 private Node root = new Node();
+			
+			 public void put(String key, Value val) {
+
+				 root = put(root, key, val, 0); 
+			 }
+
+			 private Node put(Node x, String key, Value val, int d) {
+	
+				 if (x == null) {
+					 x = new Node();
+				 }
+				 if (d == key.length()) {
+					 x.val = val; 
+					 return x; 
+				 }
+				 char c = key.charAt(d);
+				 x.next[c] = put(x.next[c], key, val, d+1);
+				 return x;
+			}
+	
+
+	
+			⋮
+
+			 public boolean contains(String key) {
+		
+			 	return get(key) != null; 
+		   	 }
+			
+			 public Value get(String key) {
+
+				 Node x = get(root, key, 0);
+				 if (x == null) {
+					return null;
+				 }
+				 return (Value) x.val;
+			 }
+			 private Node get(Node x, String key, int d) {
+
+				 if (x == null) {
+					return null;
+				 }
+				 if (d == key.length()) {
+					 return x;
+				 }
+				 char c = key.charAt(d);
+				 return get(x.next[c], key, d+1);}
+			}
+			
+			
 
 
 
@@ -64,3 +141,5 @@ tags: [DataStructure]
 * [http://clojure.or.kr/wiki/doku.php?id=study:algorithms:trie](http://clojure.or.kr/wiki/doku.php?id=study:algorithms:trie)
 
 * [http://m.blog.naver.com/javaking75/140211950640](http://m.blog.naver.com/javaking75/140211950640)
+
+* [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
