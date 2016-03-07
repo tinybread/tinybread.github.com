@@ -57,19 +57,17 @@ tags: [DataStructure]
 Search hit : node의 끝이 null 이외의 value값을 갖고 있다.
 
 <img src="/assets/themes/Snail/img/DataStructure/Trie/searchHit.PNG" alt="">
-출처 : [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
+
 
 
 
 Search miss : null 링크 또는 종료 노드의 값이 null을 갖고 있다.
 
 <img src="/assets/themes/Snail/img/DataStructure/Trie/searchMiss.PNG" alt="">
-출처 : [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
 
 
 
 <img src="/assets/themes/Snail/img/DataStructure/Trie/searchMiss2.PNG" alt="">
-출처 : [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
 
 ### Example
 
