@@ -32,7 +32,7 @@ Spring MVC framework는 모든 HTTP 요청 및 응답을 처리하는 Dispatcher
 <img src="/assets/themes/Snail/img/Spring/SpringWebMVCFlow/springWebMVCFlow.png" alt="">
 
 
-### Spring MVC Flow ###
+### Spring MVC Flow 
 
 * (HttpRequest의 요청)최초 진입은 DispatcherServlet이 담당한다.
 
@@ -58,10 +58,4 @@ Spring Web MVC를 사용하기 위해 config는 아래와 같은 방법으로 �
 * (@Configuration, @EnableWebMvc, @EnableAsync, @ComponentScan,WebApplicationInitializer ...)
 
 ### 참고
-* [https://namu.wiki/w/%ED%8A%B8%EB%9D%BC%EC%9D%B4 ](https://namu.wiki/w/%ED%8A%B8%EB%9D%BC%EC%9D%B4)
-
-* [http://clojure.or.kr/wiki/doku.php?id=study:algorithms:trie](http://clojure.or.kr/wiki/doku.php?id=study:algorithms:trie)
-
-* [http://m.blog.naver.com/javaking75/140211950640](http://m.blog.naver.com/javaking75/140211950640)
-
-* [http://algs4.cs.princeton.edu/lectures/52Tries.pdf](http://algs4.cs.princeton.edu/lectures/52Tries.pdf)
+* [http://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm](http://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm)
