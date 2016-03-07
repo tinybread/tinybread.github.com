@@ -53,8 +53,7 @@ tags: [DataStructure]
 * tree의 가장 마지막 노드가 의미있는 데이터가 된다.
 * 부모노드와 간선문자를 이용해 자식노드를 나타낸다.
 
-**Search in a trie**
-키의 각 문자에 해당하는 링크를 따라간다.
+**Search in a trie** : 키의 각 문자에 해당하는 링크를 따라간다.<br>
 Search hit : node의 끝이 null 이외의 value값을 갖고 있다.
 
 <img src="/assets/themes/Snail/img/DataStructure/Trie/searchHit.PNG" alt="">
@@ -130,8 +129,10 @@ Search miss : null 링크 또는 종료 노드의 값이 null을 갖고 있다.
 				 char c = key.charAt(d);
 				 return get(x.next[c], key, d+1);}
 			}
-			
-			
+		
+			⋮
+	
+		}
 
 
 
