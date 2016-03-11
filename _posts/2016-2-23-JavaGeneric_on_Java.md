@@ -112,5 +112,5 @@ Generic을 도입하기 이전까진 컨테이너에서 Object 타입으로 객�
 * Head First Java (한빛미디어 / 케이시 시에라, 버트 베이츠)
 * Thinking In Java (SciTech / Bruce Eckel)
 * Understanding of Java Programming(이한출판사 / 조성희)
-* [http://shonm.tistory.com/category/JAVA/%EC%A0%9C%EB%84%A4%EB%A6%AD%20%EA%B4%80%EB%A0%A8%20%EC%A0%95%EB%A6%AC](http://shonm.tistory.com/category/JAVA/%EC%A0%9C%EB%84%A4%EB%A6%AD%20%EA%B4%80%EB%A0%A8%20%EC%A0%95%EB%A6%AC)
+* [http://onecellboy.tistory.com/64](http://onecellboy.tistory.com/64)
 
