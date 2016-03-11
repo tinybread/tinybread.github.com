@@ -84,6 +84,7 @@ Generic을 도입하기 이전까진 컨테이너에서 Object 타입으로 객�
 *  T - Type
 *  V - Value
 *  S,U,V etc. - 2nd, 3rd, 4th types
+
 ### Generic 파라미터 타입 제한
 'extends'키워드를 사용한다. U는 Number의 하위 클래스이다. (Number의 하위 클래스가 아닌 것을 제한)
 		
@@ -94,6 +95,8 @@ Generic을 도입하기 이전까진 컨테이너에서 Object 타입으로 객�
 
 <br>
 조건이 여러개 일때는 &를 사용한다.
+		
+		<U extends Number & MyInterface>
   
 
 ### 와일드 카드 문자  
