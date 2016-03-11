@@ -30,14 +30,78 @@ Generic을 도입하기 이전까진 컨테이너에서 Object 타입으로 객�
 
 
 ### Example  
+* **Generic클래스 정의 및 사용**
+<br>일반적인 클래스를 정의하는 것과 동일하나 클래스명 뒤에 <T>와같이 명시해준다.<br><br>
+	GenericExample.java
 
-### Generic Interface  
+		package com.tinybread.genericExample;
+		
+		public class GenericExample<T> {
+		
+			private T value;
+		
+			public T getValue() {
+				return value;
+			}
+		
+			public void add(T value) {
+				this.value = value;
+			}
+		
+		}
 
-### Generic method  
+
+
+	GenericExampleTest.java
+	
+		package com.tinybread.genericExample;
+		
+		import static org.junit.Assert.*;
+		
+		import org.junit.Test;
+		
+		public class GenericExampleTest {
+		
+			@Test
+			public void test() {
+				GenericExample<String>  example = new GenericExample<String>();
+				example.add("test");
+				assertEquals("test", example.getValue());
+			
+				//example.add(1);//error String Type으로 선언했기 때문
+				
+			}
+		
+		}
+
+
+**Generic Type에 사용되는 파라미터**
+<br>
+
+*  E - Element (자바의 컬렉션에서 널리 사용되고 있다.)
+*  K - Key
+*  N - Number
+*  T - Type
+*  V - Value
+*  S,U,V etc. - 2nd, 3rd, 4th types
+### Generic 파라미터 타입 제한
+'extends'키워드를 사용한다. U는 Number의 하위 클래스이다. (Number의 하위 클래스가 아닌 것을 제한)
+		
+		public <U extends Number> void print(U u){
+				System.out.println(u.getClass().getName());
+			}
+  
+
+<br>
+조건이 여러개 일때는 &를 사용한다.
+  
 
 ### 와일드 카드 문자  
 
-### Generic의 제약  
+* <?> - 모든 객체 자료형, 내부적으로는 Object로 인식한다.
+* <? super 객체자료형> - 명시된 객체자료형과 그 상위 객체, 내부적으로는 Object로  인식한다.
+* <? extends 객체자료형> - 명시된 객체 자료형과 이를 상속한 하위객체, 내부적으로는 명시된 객체 자료형으로 인식한다.
+
 
 
 
@@ -45,3 +109,5 @@ Generic을 도입하기 이전까진 컨테이너에서 Object 타입으로 객�
 * Head First Java (한빛미디어 / 케이시 시에라, 버트 베이츠)
 * Thinking In Java (SciTech / Bruce Eckel)
 * Understanding of Java Programming(이한출판사 / 조성희)
+* [http://shonm.tistory.com/category/JAVA/%EC%A0%9C%EB%84%A4%EB%A6%AD%20%EA%B4%80%EB%A0%A8%20%EC%A0%95%EB%A6%AC](http://shonm.tistory.com/category/JAVA/%EC%A0%9C%EB%84%A4%EB%A6%AD%20%EA%B4%80%EB%A0%A8%20%EC%A0%95%EB%A6%AC)
+
