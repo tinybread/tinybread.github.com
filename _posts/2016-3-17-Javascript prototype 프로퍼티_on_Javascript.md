@@ -63,4 +63,4 @@ contructor 에는 f함수가 생성될 때 사용된 함수 객체가 담겨 있
 ### 참고
 * [http://codingnuri.com/javascript-tutorial/prototypes.html](http://codingnuri.com/javascript-tutorial/prototypes.html)
 
-* [http://beizix.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Function-%EC%9D%98-%EB%B9%84%EB%B0%80-prototype-%EA%B3%BC-new](http://beizix.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Function-%EC%9D%98-%EB%B9%84%EB%B0%80-prototype-%EA%B3%BC-new)
+* [http://beizix.tistory.com](http://beizix.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Function-%EC%9D%98-%EB%B9%84%EB%B0%80-prototype-%EA%B3%BC-new)
