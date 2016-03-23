@@ -55,8 +55,34 @@ contructor 에는 f함수가 생성될 때 사용된 함수 객체가 담겨 있
 		f.toString();
 		f.hasOwnProperty('');
 
-### prototype chain 도식화  
+f를 호출용 함수로만 사용한다면, 프로토타입 객체는 그다지 유용하지 않다. new연산자를 앞에 붙이고 함수를 호출할때 호출함수의 프로토타입을 근간으로 하는 신규객체가 반환된다.
 
+기본적으로 인스턴스를 생성하지 않았을 때의 prototype은 자바스크립트 최상위 Object 클래스를 참조한다.
+
+	var result = f(); result=> undefined
+	var result = new f(); result=> Object
+
+
+		result = {
+			__proto__ : {
+				constructor : function f () {},
+				__proto__ : Object
+			}
+		}
+### prototype chain
+
+		//Person 생성자 함수
+		function Person(name) {
+			this.name=name;
+		}
+		
+		//PersonJoo 객체 생성
+		var personJoo = new Person('joo');
+		
+		console.dir(person);
+		console.dir(personJoo); 
+		  
+<img src="/assets/themes/Snail/img/Javascript/Javascript prototype/prototypeChain.png" alt="">
 
 
 
