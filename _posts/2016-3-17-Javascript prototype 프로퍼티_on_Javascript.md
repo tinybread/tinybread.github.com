@@ -69,7 +69,10 @@ f를 호출용 함수로만 사용한다면, 프로토타입 객체는 그다지
 				__proto__ : Object
 			}
 		}
+
+
 ### prototype chain
+
 
 		//Person 생성자 함수
 		function Person(name) {
