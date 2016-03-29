@@ -2,8 +2,8 @@
 layout: post
 category: Java
 title: Java7 10가지 특징  
-tagline: by Pigbrain
-tags: [Java]
+tagline: by TinyBread
+tags: Java
 ---
 
 <!--more-->
