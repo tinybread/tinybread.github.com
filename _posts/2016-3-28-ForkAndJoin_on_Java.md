@@ -2,8 +2,8 @@
 layout: post
 category: Java
 title: Fork and Join
-tagline: by Pigbrain
-tags: [Java]
+tagline: by TinyBread
+tags: Java
 ---
 
 <!--more-->
