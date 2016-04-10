@@ -109,9 +109,6 @@ tags: Java
 	* **RecursiveAction**는 리턴 값을 가지지 않는다  
 	* **RecursiveTask**는 리턴 값을 가지고 있다  
 
-# Example Code
-* [Code](https://github.com/pigbrain/HelloJava/tree/master/src/main/java/io/pigbrain/concurrent)  
-  
 # 참고  
 * http://www.oracle.com/technetwork/articles/java/fork-join-422606.html  
 
