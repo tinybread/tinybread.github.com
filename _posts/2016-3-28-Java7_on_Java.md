@@ -102,7 +102,7 @@ tags: Java
 * Fork/Join Framework의 핵심은 AbstractExecutorService 클래스를 구현한 ForkJoinPool 클래스다  
 	* ForkJoinPool은 핵심적인 work-stealing 알고리즘을 구현하고있다  
 	* ForkJoinTask 프로세스들을 실행 할 수 있다  
-* [추가 내용](http://pigbrain.github.io/java/2016/03/28/ForkAndJoin_on_Java)  
+* [추가 내용](http://tinybread.github.io/java/2016/03/28/ForkAndJoin_on_Java)  
 
 # Underscore in Numeric literal  
 * 숫자형(정수,실수)에 _(underscore) 문자열을 사용하여 가독성을 향상 시킬 수 있다  
