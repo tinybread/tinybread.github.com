@@ -1,1 +1,1 @@
-layout: post  category: error  title: errortagline: by TinyBread  tags: [error  ]  <!--more-->  # PHP 배열  
+layout: post  category: error  title: error   tagline: by TinyBread  tags: [error]  <!--more-->  # PHP 배열  
