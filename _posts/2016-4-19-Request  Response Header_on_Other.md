@@ -16,11 +16,12 @@ tags: [Other]
 
 ### Request
  
-** If-Modified-Since: Sat, 16 Apr 2016 10:41:14 GMT  **   <br>
+** If-Modified-Since: Sat, 16 Apr 2016 10:41:14 GMT  **   
 
 헤더의 값으로 주어진 날짜 이후 수정이 되었다면 URI데이터를 보낸다는 것을 명시한다. 이것은 클라이언트 측 캐시에 대해 유용하다. 만약 문서가 수정되지 않았다면 서버는 304코드를 반환하여 클라이언트에게 로컬에 있는 사본을 보여준다. 단 지정한 날짜는 Date헤더 아래에 설명된 형식을 따라야 한다.
 
-If-None-Match: W/"041947fcc97d11:0"<br>
+**If-None-Match: W/"041947fcc97d11:0"**
+
 Contents가 수정된 것이 없다면 304응답 코드를 받고 새로 받아오지 않는다.
 
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8<br>
