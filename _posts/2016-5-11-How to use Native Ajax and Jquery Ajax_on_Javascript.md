@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Other
+category: Javascript
 title: How to use Native Ajax And Jquery Ajax
 tagline: by TinyBread
 tags: [Javascript]
