@@ -13,7 +13,7 @@ tags: [Javascript]
 # location.href VS location.replace
 
 
-<img src="/assets/themes/Snail/img/Javascript/href vs replace/href와replace차이.PNG" alt="">
+<img src="/assets/themes/Snail/img/Javascript/href_VS_replace/href와replace차이.PNG" alt="">
 
 
 ### 참고
