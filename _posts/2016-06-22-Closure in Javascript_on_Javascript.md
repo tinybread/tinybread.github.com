@@ -33,9 +33,9 @@ tags: [Javascript]
         init();
         
         
-함수 init()은 지역변수 name, 함수 displayName()을 정의하고 있다.
-displayName()은 init()안에 정의되어 있는 내부함수 이다. 따라서, 같은 scope인 name에 접근이 가능하다.
-displayName()자체에 name이라는 지역 변수를 갖고 있지 않지만, init에 정의된 변수에 접근하는 권한이 있기때문에 부모 함수에 있는 변수 name을 사용할 수 있다.
+- 함수 init()은 지역변수 name, 함수 displayName()을 정의하고 있다.
+- displayName()은 init()안에 정의되어 있는 내부함수 이다. 따라서, 같은 scope인 name에 접근이 가능하다.
+- displayName()자체에 name이라는 지역 변수를 갖고 있지 않지만, init에 정의된 변수에 접근하는 권한이 있기때문에 부모 함수에 있는 변수 name을 사용할 수 있다.
         
 
 ### 참조
