@@ -1,9 +1,9 @@
 ---
 layout: post
-category: Other
+category: Git
 title: Git Command
 tagline: by TinyBread
-tags: [Other]
+tags: [Git]
 ---
 <!--more-->
 
@@ -22,7 +22,7 @@ tags: [Other]
 
 ### 원격저장소
 
-- git clone 저장소주소 폴더명 <br>
+- ** git clone 저장소주소 폴더명 ** <br>
 원격저장소를 복제하여 저장소를 생성합니다. 폴더명을 생략가능합니다.
 
 - git fetch <br>
@@ -40,11 +40,11 @@ git fetch에서 하는 원격저장소의 변경사항을 가져와서 지역브
 - it remote <br>
 추가한 원격저장소의 목록을 확인할 수 있습니다.
 
-git remote show 이름 <br>
+- git remote show 이름 <br>
 해당 원격저장소의 정보를 볼 수 있습니다.
 
-git remote rm 이름 <br>
+- git remote rm 이름 <br>
 원격저장소를 제거합니다.
 
 ### 참조
-- (https://blog.outsider.ne.kr/572)[https://blog.outsider.ne.kr/572]
+- [https://blog.outsider.ne.kr/572](https://blog.outsider.ne.kr/572)
