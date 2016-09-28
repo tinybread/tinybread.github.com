@@ -1,7 +1,7 @@
 ---
 layout: post
-category: Git
-title: algorithm
+category: algorithm
+title: Solving algorithm _ TwoSum
 tagline: by TinyBread
 tags: [algorithm]
 ---
