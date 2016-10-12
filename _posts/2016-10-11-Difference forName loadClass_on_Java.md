@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 category: Java
 title: Difference between Class.forName() and ClassLoader.loadClass()
