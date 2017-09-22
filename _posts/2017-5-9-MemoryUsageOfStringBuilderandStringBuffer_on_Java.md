@@ -8,7 +8,7 @@ tags: [Java]
 
 <!--more-->
 
-#String
+# String
 * String과 다른 클래스(StringBuffer, StringBuilder)의 기본적인 차이는 메모리의 불변/가변이다.
 	* String객체는 한번 생성되면 할당된 메모리 공간이 변하지 않는다.
 	* 따라서 접합연산(+ or concat)을 할경우 기존문자열에 새로운 문자열을 붙이는 것이 아니라, 새로 객체를 할당해서 저장 후 그 객체를 참조하도록 한다.
@@ -18,14 +18,14 @@ tags: [Java]
 
 ** JDK1.5 이후 버전에서는 String클래스로 문자열 연산을 하더라도. StringBuilder로 컴파일 되도록 되어있기에 성능상 큰 차이가 없다	
 	
-#StringBuilder & StringBuffer	
+# StringBuilder & StringBuffer	
 * String Builder & String Buffer는 문자열 연산등으로 기존 객체의 공간이 부족하면 버퍼의 크기를 늘려 유연하게 동작한다.
 * 두 클래스의 가장 큰 차이는 동기화 여부이다.
-	*StringBuffer는 각 메서드 별로 Synchronized 키워드가 존재하며, 멀티스레드 환경해서 동기화를 보장한다.
+	* StringBuffer는 각 메서드 별로 Synchronized 키워드가 존재하며, 멀티스레드 환경해서 동기화를 보장한다.
 	* 반면 StringBuilder는 보장하지 않는다.
 
 
-#String Builder & String Buffer Memory Usage
+# String Builder & String Buffer Memory Usage
 * 자바에는 String 외에도 문자들을 저장 할 수 있는 방법이 있다  
 * **StringBuffer**와 **StringBuilder** 클래스를 이용 할 수 있다  
 	* char 배열과 현재 문자열 길이를 저장하기 위한 int형 변수가 포함되어 있다  
